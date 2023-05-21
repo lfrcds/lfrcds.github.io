@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+
+    background-color: #0D1F2D;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+body {
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: #ececec;
+    overflow-x: hidden;
+}
+
+.background {
+    background-image: url("https://cdn.discordapp.com/attachments/879405545356918844/1102468829197652028/sha.jpeg");
+    background-size: cover;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+
+    filter: blur(50px);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    margin-left: 20px;
+    margin-top: 10px;
+
+    font-size: 15px;
+    z-index: 2;
+}
+
+.cover {
+    max-width: 300px;
+    top: 50%;
+    left: 50%;
+
+    margin-top:20px;
+}
+
+.title {
+    display: flex;
+}
+
+#cirlesyay {
+    position: absolute;
+    filter: blur(80px);
+    z-index: -2;
+}
+
+.songinf {
+    margin: 40px;
+}
+
+.stitle {
+    font-size: 50px;
+}
+
+.sartist {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top:-10px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: -20px;
+}
+
+.stores {
+    width: 50px;
+}
+
+main a {
+    text-decoration: none;
+}
+
+.save {
+    font-size: 80%;
+}
+
+.follow {
+    margin-top: -20px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.mailic {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-weight: 300;
+
+    font-size: 10px;
+  }
+
+i {
+    margin: 3px;
+}
+
+a {
+    color: #ececec;
+}
+
+.sideleft {
+    position: absolute;
+    top: 600px;
+    left: -12px;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    white-space: nowrap;
+    font-size: 15px;
+    /* Additional styling properties as needed */
+}
+
+.sideleft a {
+    text-decoration:none;
+}
+  

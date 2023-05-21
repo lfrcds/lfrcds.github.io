@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: #fcfcfc;
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 10px;
+}
+
+
+h1 {
+    font-weight: 800;
+}
+
+.mailic {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.uo {
+    font-size: 80px;
+}
+
+#mobilev {
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-weight: 300;
+
+    font-size: 10px;
+  }
+
+i {
+    margin: 3px;
+}
+
+a {
+    color: #fafafa;
+}
+
+.sideleft {
+    position: absolute;
+    top: 600px;
+    left: -12px;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    white-space: nowrap;
+    font-size: 15px;
+    /* Additional styling properties as needed */
+}
+
+.sideleft a {
+    text-decoration:none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    margin-left: 20px;
+    margin-top: 10px;
+
+    font-size: 15px;
+    z-index: 2;
+}
+
+.title {
+    display: flex;
+}
+  
+/* --- */
+  
+body {
+    background-color: #000000;
+  }
+  
+  .container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #ffffff;
+    opacity: 0;
+    pointer-events: none;
+    animation: twinkle 1s infinite;
+  }
+  
+  .image-star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    pointer-events: none;
+
+    background-image: url("https://cdn.discordapp.com/attachments/828893588511129620/1109731639229165618/sparkler.png");
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+  }
+  
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .moon {
+    max-width: 200px;
+    position: fixed;
+    top: -60%;
+    left: 130%;
+    transform: translate(-50%, -50%);
+  }
